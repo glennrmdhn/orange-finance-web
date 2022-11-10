@@ -1237,6 +1237,9 @@ a:hover{
     .nav__list__group ul{
         padding-left: 1rem !important;
     }
+    .left__group__footer{
+        width: 20rem;
+    }
 }
 
 @media (max-width:575px){
@@ -1248,6 +1251,9 @@ a:hover{
     }
     .nav__list__group ul li a{
         font-size: 10px;
+    }
+    .left__group__footer{
+        width: 10rem;
     }
 }
 

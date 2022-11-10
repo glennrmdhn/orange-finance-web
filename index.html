@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-project</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- plugin -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/plugin/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugin/owlcarousel/owl.theme.default.css">
+
+
+
+    <!-- plugin -->
+</head>
+<body>
+
+    <header class="navbar__head">
+        <nav class="navbar navbar-light navbar-expand-lg ms-xl-5 me-xl-5 ms-lg-5 me-lg-5 ms-md-3 me-md-3 ms-sm-1 me-sm-1 ms-1 me-1">
+            <a href="#" class="navbar-brand d-flex w-50 me-auto">
+                <img src="assets/img/logo-orange.png" class="img-fluid" loading="lazy" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                <div class="offcanvas-header">
+                    <img src="assets/img/logo-orange.png" alt="">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Features
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                        <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                            <div class="cta__top__group">
+                                <a class="cta__btn__mob">
+                                    Contact Us!
+                                </a>
+                            </div>
+                        </ul>
+
+                    </ul>
+    
+
+                </div>
+              </div>
+
+                
+                <div class="navbar-collapse collapse w-100 navbar__dekstop">
+                    <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu dropdown__menu__desk" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Lite version orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </ul>
+
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Features
+                            </a>
+
+                            <ul class="dropdown-menu dropdown__menu__desk" aria-labelledby="navbarDarkDropdownMenuLink">
+
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+                                        <div class="col-4">
+                                            <div class="sub__menu__title">
+                                                Orange Basic
+                                            </div>
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cash-stack"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Bind & Pay
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-cart-plus-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Guest Checkout
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Pay without connect to orange
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            <li class="sub__menu">
+                                                <a class="sub__menu__group">
+                                                    <div class="menu__icon__group">
+                                                        <div class="bi bi-play-btn-fill"></div>
+                                                        <div class="menu__title" href="#">
+                                                            Mini Orange
+                                                        </div>                                                    
+                                                    </div>
+                                                    <div class="menu__desc">
+                                                        Connect with Orange
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </ul>
+
+                        </li>
+                    </ul>
+    
+                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                        <div class="cta__top__group">
+                            <a class="cta__btn__desk">
+                                Contact Us!
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+        </nav>
+    </header>
+
+    <section class="hero__sect">
+        <div class="container my-2 my-xl-5 my-lg-5 my-md-3 my-sm-2">
+            <div class="row hero__group">
+                <div class="col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12 left__side__hero">
+                    <div class="small__hero__text">
+                        <span class="emoji__small">🎉</span> Financial Platform No 1!
+                    </div>
+                    <div class="hero__title my-0 my-xl-3 my-lg-3 my-md-1 my-sm-0">
+                        Best & Trusted Digital Bank
+                    </div>
+                    <div class="hero__desc">
+                        By using this Orange can make it easier for you to control or in money transaction
+                    </div>
+                    <div class="hero__cta mt-4 mt-xl-5 mt-lg-5 mt-md-4 mt-sm-4">
+                        <a class="cta__btn__hero">
+                            Get Started
+                        </a>
+                        <div class="text__free">
+                            Get early started for free just for you
+                        </div>
+                    </div>
+                    <div class="partner__group__hero my-4 my-xl-5 my-lg-5 my-md-4 my-sm-4">
+                        <img src="assets/img/stripe.png" class="img-fluid" loading="lazy" alt="">
+                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                        <img src="assets/img/mastercard.png" class="img-fluid" loading="lazy" alt="">
+                        <img src="assets/img/skrill.png" class="img-fluid" loading="lazy" alt="">
+                        <img src="assets/img/visa.png" class="img-fluid" loading="lazy" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 col-lg-6 col-sm-12 col-md-12 right__side__hero">
+                    <div class="img__group">
+                        <img src="assets/img/hero_img.webp" class="img-fluid" loading="lazy" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product__sect">
+
+        <div class="container my-5">
+            <div class="row product__list">
+                <div class="col-12 product__title__group">
+                    <div class="product__small__title">
+                        Our Product
+                    </div>
+                    <div class="product__title text-capitalize mb-5">
+                        Various kinds of finance products
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xl-4 col-md-12 col-sm-12 product__list__box">
+                    <div class="product__box">
+                        <div class="container product__group">
+                            <div class="top__product__box__group">
+                                <div class="top__text">
+                                    Transaction
+                                </div>
+                                <div class="bi bi-three-dots-vertical top__icon"></div>
+                            </div>
+                            <div class="center__product__box__group my-3">
+                                <img src="assets/img/qr.png" class="img-fluid" loading="lazy" alt="">
+                            </div>
+                            <div class="bottom__product__box__group">
+                                <div class="bottom__btn">
+                                    Scan QR Code
+                                </div>
+                                <div class="bottom__icon">
+                                    <div class="bi bi-caret-right-fill caret"></div>
+                                    <div class="bi bi-caret-right-fill caret"></div>
+                                    <div class="bi bi-caret-right-fill caret"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__list__title  text-capitalize">
+                        Make Transaction easier
+                    </div>
+                    <div class="product__list__desc">
+                        We always want users to be able to make transaction easily and comfortably
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xl-4 col-md-12 col-sm-12 product__list__box">
+                    <div class="product__box">
+                        <div class="container skeleton__box__group">
+                            <div class="skeleton__group">
+                                <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                <div class="skeleton__list">
+                                    <div class="line__skeleton"></div>
+                                    <div class="line__skeleton"></div>
+                                    <div class="line__skeleton"></div>
+                                </div>
+                            </div>
+                            <div class="skeleton__group">
+                                <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                <div class="skeleton__list">
+                                    <div class="line__skeleton"></div>
+                                    <div class="line__skeleton"></div>
+                                    <div class="line__skeleton"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__list__title  text-capitalize">
+                        Various helpful features
+                    </div>
+                    <div class="product__list__desc">
+                        Find things that make you more comfortable in managing finances with the best features
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 col-xl-4 col-md-12 col-sm-12 product__list__box">
+                    <div class="product__box">
+                        <div class="container platform__group">
+                            <div class="row w-100 justify-content-center">
+                                <div class="col-5 platform__box">
+                                    <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="col-5 platform__box">
+                                    <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="col-5 platform__box">
+                                    <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                                <div class="col-5 platform__box">
+                                    <img src="assets/img/stat-1.png" class="img-fluid" loading="lazy" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__list__title  text-capitalize">
+                        Coin investment platform
+                    </div>
+                    <div class="product__list__desc">
+                        Here we also provide various types of digital coins for you to invest safely and comfortably
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="various__sect">
+
+        <div class="container my-5">
+            <div class="various__title">
+                Various Kinds of Finances Products
+            </div>
+            <div class="row">
+                <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 various__left__group">
+                    <div class="various__accordion">
+                        <div id="accordionExample" class="d-block accordion accordion-flush nav nav-tabs" role="tablist">
+
+                            <div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-one" type="button" role="tab" aria-controls="accordion-one" aria-selected="true">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1. We have features that help your finances
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="img__accordion">
+                                            <img src="assets/img/img-various.webp" class="img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        With this scan features, it can make transactions faster and safer, of course
+                                        <div class="mt-3">
+                                            <a href="">Learn More <span class="bi bi-arrow-right-short"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-two" type="button" role="tab" aria-controls="accordion-two" aria-selected="true">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    2. All kinds of activities regarding finances
+                                </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="img__accordion">
+                                            <img src="assets/img/img-various2.webp" class="img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        With this scan features, it can make transactions faster and safer, of course
+                                        <div class="mt-3">
+                                            <a href="">Learn More <span class="bi bi-arrow-right-short"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-three" type="button" role="tab" aria-controls="accordion-three" aria-selected="true">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    3. Various of needs regarding finance here
+                                </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="img__accordion">
+                                            <img src="assets/img/img-various.webp" class="img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        With this scan features, it can make transactions faster and safer, of course
+                                        <div class="mt-3">
+                                            <a href="">Learn More <span class="bi bi-arrow-right-short"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-bs-toggle="tab" data-bs-target="#accordion-four" type="button" role="tab" aria-controls="accordion-four" aria-selected="true">
+                                <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    4. Only here you will get various benefits
+                                </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="img__accordion">
+                                            <img src="assets/img/img-various2.webp" class="img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        With this scan features, it can make transactions faster and safer, of course
+                                        <div class="mt-3">
+                                            <a href="">Learn More <span class="bi bi-arrow-right-short"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-1 col-5 d-none d-xl-flex d-lg-flex d-md-none d-sm-none">
+
+                    <div class="tab-content d-flex justify-content-center align-items-center h-100" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="accordion-one" role="tabpanel" aria-labelledby="accordion-one-tab">
+                            <img src="assets/img/img-various.webp" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="accordion-two" role="tabpanel" aria-labelledby="accordion-two-tab">
+                            <img src="assets/img/img-various2.webp" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="accordion-three" role="tabpanel" aria-labelledby="accordion-three-tab">
+                            <img src="assets/img/img-various.webp" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                        <div class="tab-pane fade" id="accordion-four" role="tabpanel" aria-labelledby="accordion-four-tab">
+                            <img src="assets/img/img-various2.webp" class="img-fluid" loading="lazy" alt="">
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="download__sect">
+        <div class="container download__group">
+            <div class="row">
+                <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 left__download__group">
+                    <div class="bg__phone">
+                        <img src="assets/img/phone.png" alt="" loading="lazy">
+                    </div>
+                </div>
+                <div class="offset-0 offset-xl-1 offset-lg-1 offset-md-0 offset-sm-0 col-12 col-xl-5 col-lg-5 col-md-12 col-sm-12  right__download__group">
+                    <div class="text__download__group">
+                        <div class="small__download__text">
+                            Our Platform
+                        </div>
+                        <div class="title__download__text mt-1 mb-4 text-capitalize">
+                            Orange available on mobile & websites
+                        </div>
+                        <div class="desc__download__text">
+                            We are always here to help you, therefore to make it easier for you, we also provide it in mobile form which you can download on the Google Play Store or App Store.
+                        </div>
+                    </div>
+                    <div class="download__button__group my-4">
+                        <a href="">
+                            <img src="assets/img/googleplay.png" class="img-fluid" loading="lazy" alt="">
+                        </a>
+                        <a href="">
+                            <img src="assets/img/appstore.png" class="img-fluid" loading="lazy" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testi__sect">
+        <div class="container testi__group">
+            <div class="row">
+                <div class="col-12 testi__head__group">
+                    <div class="testi__small__text">
+                        Our Testimonial
+                    </div>
+                    <div class="testi__title__text">
+                        Testimonials
+                    </div>
+                    <div class="testi__desc__text">
+                        Here are some testimonials from people who represent each company. let's show them as follows
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme my-5">
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Augutino Vito
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Stripe Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Anylyssa Morella
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Paypal Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Augutino Vito
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Stripe Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Anylyssa Morella
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Paypal Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Augutino Vito
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Stripe Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item testi__list__group">
+                            <div class="row testi__list">
+                                <div class="col-12">
+                                    <div class="logo__group">
+                                        <img src="assets/img/paypal.png" class="img-fluid" loading="lazy" alt="">
+                                    </div>
+                                    <div class="testi__text my-2">
+                                        "Orange is very useful for me when i want to use it for my payroll and making daily transaction like fill the token and many more, thanks orange"
+                                    </div>
+                                    <div class="testi__pp__group">
+                                        <div class="pp__group">
+                                            <img src="assets/img/pp.png" class="pp__img img-fluid" loading="lazy" alt="">
+                                        </div>
+                                        <div class="testi__name__group">
+                                            <div class="testi__name text-capitalize">
+                                                Anylyssa Morella
+                                            </div>
+                                            <div class="testi__company">
+                                                CEO Paypal Coorporate
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer__sect">
+
+        <div class="container footer__group">
+            <div class="row left__group__footer">
+                <div class="col-12 company__info__group">
+                    <img src="assets/img/logo-orange.png" class="img-fluid" loading="lazy" alt="">
+                    <div class="company__info__desc my-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, harum adipisci vel exercitationem rem recusandae facilis sed neque nobis pariatur est! Expedita, veniam unde!
+                    </div>
+                    <div class="company__info__socmed">
+                        <div class="bi bi-google"></div>
+                        <div class="bi bi-instagram"></div>
+                        <div class="bi bi-twitter"></div>
+                        <div class="bi bi-linkedin"></div>
+                        <div class="bi bi-youtube"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row right__group__footer">
+                <div class="col-3 nav__footer__group">
+                    <div class="title__nav">
+                        Company
+                    </div>
+                    <div class="nav__list__group">
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 nav__footer__group">
+                    <div class="title__nav">
+                        Our Services
+                    </div>
+                    <div class="nav__list__group">
+                        <ul>
+                            <li><a href="">My Card</a></li>
+                            <li><a href="">Digital Bank</a></li>
+                            <li><a href="">Finance</a></li>
+                            <li><a href="">Sending</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 nav__footer__group">
+                    <div class="title__nav">
+                        Social Media
+                    </div>
+                    <div class="nav__list__group">
+                        <ul>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Linkedin</a></li>
+                            <li><a href="">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 nav__footer__group">
+                    <div class="title__nav">
+                        Others
+                    </div>
+                    <div class="nav__list__group">
+                        <ul>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">Apps</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container footer__small__text__group">
+            <div class="footer__small__text__left">
+                Copyright @ Orange 2022
+            </div>
+            <div class="footer__small__text__right">
+                <a class="term">
+                    Term & Condition
+                </a>
+                <a class="privacy">
+                    Privacy Policy
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+    
+
+
+    <!-- plugin -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="assets/plugin/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/plugin/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+    <!-- plugin -->
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:3,
+            loop:true,
+            margin:50,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true
+        });
+    </script>
+</body>
+</html>

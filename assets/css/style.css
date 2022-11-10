@@ -348,6 +348,11 @@ a:hover{
         text-align: center;
     }
     
+    .hero__sect{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
 }
 
 @media (max-width: 767px) {
@@ -356,6 +361,20 @@ a:hover{
     }
 }
 
+@media (max-width:575px){
+    .partner__group__hero img{
+        width: 3.5rem;
+        margin-right: 1rem;
+    }
+    .text__free{
+        font-size: 12px;
+    }
+    
+    .cta__btn__hero{
+        margin-right: 1rem;
+        width: 20rem;
+    }
+}
 
 
 
@@ -394,7 +413,7 @@ a:hover{
 
 .product__small__title{
     font-size: 16px;
-    color: #333333;
+    color: #fe832c;
     font-weight: 700;
 }
 
@@ -613,6 +632,16 @@ a:hover{
     }
 }
 
+@media (max-width:767px){
+    .product__title{
+        font-size: 35px !important;
+    }
+
+    .product__list__title{
+        font-size: 25px;
+    }
+}
+
 
 
 
@@ -729,6 +758,26 @@ a:hover{
     }
     .accordion-body{
         margin-left: 2.5rem;
+    }
+}
+
+@media (max-width:767px){
+    .accordion-body{
+        margin-left: 0.5rem;
+        width: 25rem;
+    }
+    .accordion-button{
+        font-size: 18px !important;
+    }
+    .various__title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:575px){
+    .accordion-body{
+        margin-left: 1rem;
+        width: 20rem;
     }
 }
 
@@ -1009,6 +1058,40 @@ a:hover{
         margin-top: 1rem;
         padding: 1rem 0rem;
     }
+
+    .logo__group{
+        width: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .testi__text{
+        font-size: 8px;
+        width: 7rem;
+    }
+
+    .logo__group{
+        width: 3rem;
+    }
+
+    .pp__group{
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+    .testi__name{
+        font-size: 8px;
+    }
+    
+    .testi__company{
+        font-size: 6px;
+    }
+}
+
+@media (max-width:575px){
+    .testi__desc__text{
+        font-size: 14px;
+        width: 25rem;
+    }
 }
 
 
@@ -1085,6 +1168,7 @@ a:hover{
 .nav__list__group ul li a{
     color: #333333;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .nav__list__group ul li a:hover{
@@ -1134,6 +1218,36 @@ a:hover{
     }
     .company__info__desc{
         width: 30rem;
+    }
+    .title__nav{
+        font-size: 16px;
+    }
+    .nav__list__group ul li a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767px){
+    .title__nav{
+        font-size: 14px;
+    }
+    .nav__list__group ul li a{
+        font-size: 12px;
+    }
+    .nav__list__group ul{
+        padding-left: 1rem !important;
+    }
+}
+
+@media (max-width:575px){
+    .company__info__desc{
+        width: 25rem;
+    }
+    .title__nav{
+        font-size: 12px;
+    }
+    .nav__list__group ul li a{
+        font-size: 10px;
     }
 }
 

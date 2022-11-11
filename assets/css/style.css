@@ -161,10 +161,15 @@ a:hover{
 
 @media (max-width:1440px){
     .dropdown__menu__desk[data-bs-popper]{
-        left: -225% !important;
+        left: -275% !important;
     }
 }
 
+@media (max-width:1024px){
+    .dropdown__menu__desk[data-bs-popper]{
+        left: -325% !important;
+    }
+}
 
 
 

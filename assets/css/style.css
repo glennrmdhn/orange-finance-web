@@ -541,7 +541,7 @@ a:hover{
 
 .line__skeleton{
     height: 0.5rem;
-    background-color: #e7edf4;
+    background-color: #3333335a;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
